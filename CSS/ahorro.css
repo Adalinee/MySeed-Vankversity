@@ -19,6 +19,7 @@ body {
     align-items: center;
     padding: 10px 20px;
     color: white;
+    border-bottom: 1px solid #fef0f5;
 }
 
 .header .logo img {
@@ -42,38 +43,6 @@ body {
     border-bottom: 2px solid #c70089;
 }
 
-/* Blob Text Box */
-.blob-text-box {
-    background-color: #fff;
-    padding: 15px;
-    border-radius: 30px;
-    margin: 20px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-}
-
-.blob-text-box h2 {
-    color: #c70089;
-    margin-bottom: 5px;
-}
-
-.blob-text-box p {
-    margin-bottom: 15px;
-    font-size: 1em;
-}
-
-/* Welcome and Mi Ahorro Text */
-.welcome-text, .mi-ahorro {
-    margin: 20px;
-    padding: 15px;
-    background-color: #fff;
-    border-radius: 10px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-}
-
-.welcome-text strong, .mi-ahorro strong {
-    color: #c70089;
-}
-
 /* Image Section */
 .image-section {
     display: flex;
@@ -95,6 +64,9 @@ footer {
     padding: 10px 20px;
     text-align: center;
     margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    border-top: 1px solid #fef0f5;
 }
 
 .footer-section p {

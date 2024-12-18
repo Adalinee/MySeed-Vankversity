@@ -19,6 +19,7 @@ body {
     align-items: center;
     padding: 10px 20px;
     color: white;
+    border-bottom: 1px solid #fef0f5;
 }
 
 .header .logo img {
@@ -36,6 +37,12 @@ body {
     color: #7a0053;
     font-weight: bold;
     font-size: 1.2em;
+    transition: all 0.2s;
+}
+
+.header nav a:hover{
+    color: #ffb5d2;
+    scale: 1.1;
 }
 
 .header nav a.active {
@@ -89,12 +96,13 @@ body {
     border: 5px solid #ffb5d2;
 }
 
-/* Footer */
 footer {
     color: white;
     padding: 10px 20px;
-    text-align: center;
+    display: flex;
     margin-top: 20px;
+    justify-content: space-between;
+    border-top: 1px solid #fef0f5;
 }
 
 .footer-section p {
