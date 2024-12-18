@@ -1,10 +1,8 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-    font-family: "Roboto Condensed", serif;
+    box-sizing: border-box;    
 }
-
 
 body {
     height: 100vh;
@@ -12,6 +10,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: "Roboto Condensed", serif;
+
 }
 
 .container {
@@ -25,6 +25,7 @@ body {
     gap: 5rem;
 }
 
+
 .form-wrapper{
     text-align: center;
     margin-top: 150px;
@@ -32,10 +33,17 @@ body {
     padding-left: 2rem;
 }
 
+.form-wrapperr{
+    text-align: center;
+    margin-top: 80px;
+    width: 50%;
+    padding-left: 2rem;
+}
+
 .flower-img {
     display: block;
     margin: 0 auto 10px;
-    width: 50px;
+    width: 100px;
 }
 
 h1 {
@@ -43,10 +51,18 @@ h1 {
     font-size: 24px;
 }
 
+.semilla {
+    color: #f8f8f8;
+    font-size: 30px;
+    font-family: "Charm", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
 label {
     display: block;
     margin: 10px 0 5px;
-    color: #333;
+    color: #863702;
 }
 
 input {
@@ -60,7 +76,7 @@ input {
 
 .btn {
     width: 100%;
-    background-color: #ff4659;
+    background-color: #f72d70;
     color: white;
     padding: 10px;
     text-transform: uppercase;
@@ -70,14 +86,14 @@ input {
 }
 
 .btn:hover {
-    background-color: #c70089;
+    background-color: #fa0a528f;
 }
 
 .toggle {
     text-align: center;
     margin-top: 10px;
     cursor: pointer;
-    color: #c70089;
+    color: #ffffff;
 }
 
 .toggle:hover {
@@ -116,4 +132,5 @@ input {
 .hidden {
     display: none;
 }
+
 

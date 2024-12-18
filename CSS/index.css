@@ -99,10 +99,11 @@ body {
 footer {
     color: white;
     padding: 10px 20px;
-    display: flex;
     margin-top: 20px;
-    justify-content: space-between;
+    display: flex;
+    justify-content: space-evenly;
     border-top: 1px solid #fef0f5;
+
 }
 
 .footer-section p {
