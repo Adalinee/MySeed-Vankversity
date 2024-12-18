@@ -1,10 +1,10 @@
-/* General */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Arial, sans-serif;
+    font-family: "Roboto Condensed", serif;
 }
+
 
 body {
     height: 100vh;
@@ -106,12 +106,12 @@ input {
 }
 
 .modal-content {
-    background: white;
+    background: rgba(255, 255, 255, 0.349);
     padding: 20px 40px;
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
     text-align: center;
-    color: #c70089;
+    color: #2b282a81;
     font-size: 1.5rem;
     font-weight: bold;
 }
