@@ -9,7 +9,9 @@
 body {
     background: radial-gradient(circle at 50% 50%, #ff4659, #c70089);
     color: #333;
-    line-height: 1.6;
+    line-height: 3.0;
+
+
 }
 
 /* Header */
@@ -30,13 +32,30 @@ body {
     list-style: none;
     display: flex;
     gap: 20px;
+
+
 }
+
 
 .header nav a {
     text-decoration: none;
     color: #7a0053;
     font-weight: bold;
     font-size: 1.2em;
+}
+
+.navBtn {
+    width: 150px;/* Ajusta el tamaño */
+    height: 50px;/* Ajusta el tamaño  */
+    font-size: 16px; /* Ajusta el */
+    cursor: pointer;
+    background-color: #f1c5ee;
+    margin: 10px;
+    align-items: center;
+    
+    
+    
+    
 }
 
 .header nav a.active {
@@ -61,16 +80,18 @@ body {
 /* Footer */
 footer {
     color: white;
-    padding: 10px 20px;
+    padding: 10px 10px;
     text-align: center;
     margin-top: 20px;
     display: flex;
     justify-content: space-evenly;
     border-top: 1px solid #fef0f5;
+
 }
 
 .footer-section p {
     margin: 5px 0;
+
 }
 
 .icons img {
