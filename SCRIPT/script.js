@@ -6,7 +6,7 @@ function redirectToRegister() {
 
 // Redireccionar a Login
 function redirectToLogin() {
-    window.location.href = "index.html";
+    window.location.href = "../index.html";
 }
 
 // Registrar usuario en LocalStorage
