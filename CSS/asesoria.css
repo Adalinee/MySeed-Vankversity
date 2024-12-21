@@ -24,7 +24,7 @@ body {
     align-items: center;
     padding: 10px 20px;
     color: white;
-    border-bottom: 1px solid #fef0f5;
+    border-bottom: 4px solid #fef0f5;
 }
 
 .header .logo img {
@@ -133,7 +133,7 @@ footer {
     margin-top: 20px;
     display: flex;
     justify-content: space-evenly;
-    border-top: 1px solid #fef0f5;
+    border-top: 4px solid #fef0f5;
 
 }
 
