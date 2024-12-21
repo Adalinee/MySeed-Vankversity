@@ -40,7 +40,7 @@ function showWelcomeMessage(name) {
     // Cerrar modal automáticamente después de 3 segundos
     setTimeout(() => {
         modal.classList.add('hidden');
-        window.location.href = 'index.html'; // Redirige después de cerrar
+        window.location.href = '/HTML/home.html'; // Redirige después de cerrar
     }, 3000);
 }
 
