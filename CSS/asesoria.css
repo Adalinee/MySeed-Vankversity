@@ -67,7 +67,7 @@ body {
 /* Chat History */
 .chat-history {
     flex: 1;
-    width: 60vh;
+    width: 70vh;
     height: 500px;
     overflow-y: auto;
     border: 2px solid #ffb5d2;
@@ -82,7 +82,7 @@ body {
     padding: 8px 12px;
     border-radius: 10px;
     color: white;
-    max-width: 70%;
+    max-width: 60%;
 }
 
 .message.user {
